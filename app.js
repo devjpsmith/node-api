@@ -10,4 +10,4 @@ const port = 8080;
 app.use(morgan('dev'));
 app.use(router);
 
-app.listen(port, () => { console.log(`A node Js API is listening on port ${port}`)});
+app.listen(port, () => { console.log(`Node Js API is listening on port ${port}`)});
